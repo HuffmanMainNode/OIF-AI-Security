@@ -1,0 +1,10 @@
+{
+  "request": {"tool": "local.read_file"},
+  "policy": {
+    "tools": {
+      "local.read_file": {"required_permissions": ["workspace.read"]},
+      "network.fetch": {"required_permissions": ["network.access"]}
+    },
+    "granted_permissions": ["workspace.read"]
+  }
+}
